@@ -1,0 +1,17 @@
+.ticket-date {
+  display: flex;
+  flex-direction: column;
+  width: 6.5rem;
+  height: 3rem;
+  border: 1px solid #ececec;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-date__mdy {
+  font-size: 1rem;
+  font-weight: bold;
+}

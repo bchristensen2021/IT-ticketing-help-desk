@@ -1,0 +1,49 @@
+.new-ticket__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-ticket__control label {
+  color: #e0fbfc;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-ticket__control input {
+  font: inherit;
+  color: #293241;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #e0fbfc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-ticket__control__notes {
+  font: inherit;
+  color: #293241;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #e0fbfc;
+  width: 20rem;
+  height: max-content;
+  max-width: 100%;
+}
+
+.new-ticket__control select {
+  font: inherit;
+  color: #293241;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #e0fbfc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-ticket__actions {
+  text-align: right;
+}
